@@ -1,0 +1,16 @@
+{
+  "name": "asset-management-system",
+  "version": "1.0.0",
+  "description": "Asset Management System - Full Stack Application",
+  "private": true,
+  "scripts": {
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "start": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm start"
+  },
+  "keywords": ["asset", "management", "system"],
+  "author": "",
+  "license": "MIT"
+}
